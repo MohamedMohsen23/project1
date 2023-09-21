@@ -1,0 +1,39 @@
+.aa{border-radius: 80px;}
+.special h1 ,.news h1{font-weight: bold;} 
+
+.photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease-out;
+
+}
+.photo img:hover{
+    transform: rotateY(150deg);
+}
+.dd{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.link1{
+    text-decoration: none; 
+    margin-bottom: 2%; 
+    color: black;
+     font-weight:bold;
+    font-size:var(--h5-font-size);
+}
+footer{
+background-image: url(images/daan-evers-tKN1WXrzQ3s-unsplash.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding-top: 7rem;
+padding-bottom: 7rem;
+position: relative;
+}
+.ss{
+    color: #AAA;
+}
